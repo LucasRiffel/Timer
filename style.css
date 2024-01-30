@@ -1,0 +1,40 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+    flex-direction: column;
+}
+
+.inicio {
+    display: grid;
+    border-radius: 50%;
+    border: 1px solid #4b4b4b;
+    background-color: rgba(85, 85, 85, 0.411);
+}
+
+.timer {
+    background-color: none;
+    padding: 50px;
+    color: rgb(209, 209, 209);
+}
+
+.inputs {
+    margin-top: 10px;
+} 
+
+.tempo-timer {
+    border-radius: 8px;
+    background-color: transparent;
+    border: 1px solid #224242;
+    color: aliceblue;
+}
+
+.botao-adicionar {
+    border-radius: 10px;
+    background-color: #43a3a383;
+    border: 1px solid #224242;
+}
