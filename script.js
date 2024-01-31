@@ -11,7 +11,7 @@ document.getElementById('começar').addEventListener('click', function () {
             if (contagem <= 0) {
                 clearInterval(intervaloId);
                 document.getElementById('timer').innerHTML = "Contagem terminada";
-            }
+            }  
         }, 1000)
     }
 });
