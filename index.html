@@ -13,18 +13,20 @@
 <body>
     <section class="inicio">
         <div class="timer">
-            <p class="tempo">00:00:00</p>
+            <div class="tempo" id="timer"></div>
         </div>
-
 
     </section>
     <section>
         <div class="controles">
             <div>
-                <button class="pause"><i class="fas fa-pause"></i>
+
+                <button id="começar">Start</button>
+
+                <button id="pause" class="pause"><i class="fas fa-pause"></i>
 
                 </button>
-                <button class="reiniciar"><i class="fas fa-undo"></i>
+                <button id="reiniciar" class="reiniciar"><i class="fas fa-undo"></i>
 
                 </button>
             </div>
@@ -33,12 +35,15 @@
 
     <section class="inputs">
         <label for="">
-            <input class="tempo-timer" type="number" placeholder="Insira os segundos">
+            <input class="tempo-timer" id="tempo" type="number" placeholder="Insira os segundos">
         </label>
         <label>
             <button class="botao-adicionar" type="button">Adicionar</button>
         </label>
     </section>
+    <script src="script.js">
+
+    </script>
 </body>
 
 </html>
