@@ -11,19 +11,31 @@ body {
 
 .inicio {
     display: grid;
-    border-radius: 50%;
-    border: 1px solid #4b4b4b;
-    background-color: rgba(85, 85, 85, 0.411);
+    border-radius: 48%;
+    background-color: rgba(70, 69, 69, 0.479);
+}
+
+.controles {
+    margin-top: 20px;
+    background-color: transparent;
+}
+
+.pause , .reiniciar {
+    background-color: transparent;
+    color: #224242;
+    border: 1px solid #224242;
+    border-radius: 8px;
 }
 
 .timer {
     background-color: none;
-    padding: 50px;
-    color: rgb(209, 209, 209);
+    padding: 60px;
+    color: #2e5858;
+
 }
 
 .inputs {
-    margin-top: 10px;
+    margin-top: 20px;
 } 
 
 .tempo-timer {
@@ -32,9 +44,22 @@ body {
     border: 1px solid #224242;
     color: aliceblue;
 }
+.tempo-timer:hover {
+    border-radius: 8px;
+    background-color: transparent;
+    border: 1px solid #356e6e;
+}
+
+
 
 .botao-adicionar {
     border-radius: 10px;
-    background-color: #43a3a383;
+    background-color: #52c7c783;
     border: 1px solid #224242;
+    color: aliceblue;
+}
+
+.botao-adicionar:hover {
+    background-color: #33dfdf83;
+    border: 1px solid #396868;
 }
