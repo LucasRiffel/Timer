@@ -11,8 +11,12 @@ body {
 
 .inicio {
     display: grid;
-    border-radius: 48%;
+    border-radius: 50%;
+    height: 15vh;
+    width: 15vh;
     background-color: rgba(70, 69, 69, 0.479);
+    justify-content: center;
+    align-items: center;
 }
 
 .controles {
@@ -20,7 +24,7 @@ body {
     background-color: transparent;
 }
 
-.pause , .reiniciar {
+.pause , .reiniciar , .começar {
     background-color: transparent;
     color: #224242;
     border: 1px solid #224242;
@@ -29,7 +33,6 @@ body {
 
 .timer {
     background-color: none;
-    padding: 60px;
     color: #2e5858;
 
 }
@@ -50,8 +53,6 @@ body {
     border: 1px solid #356e6e;
 }
  
-
-
 .botao-adicionar {
     border-radius: 10px;
     background-color: #52c7c783;
