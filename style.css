@@ -12,8 +12,8 @@ body {
 .inicio {
     display: grid;
     border-radius: 50%;
-    height: 18vh;
-    width: 18vh;
+    height: 19vh;
+    width: 19vh;
     background-color: rgba(70, 69, 69, 0.479);
     justify-content: center;
     align-items: center;
@@ -29,11 +29,18 @@ body {
     color: #224242;
     border: 1px solid #224242;
     border-radius: 8px;
+    
+}
+
+.pause:hover , .reiniciar:hover , .começar:hover {
+    background-color: #2e5858;
+    color: rgb(34, 34, 34);
 }
 
 .timer {
     background-color: none;
     color: #2e5858;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .inputs {

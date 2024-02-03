@@ -28,7 +28,7 @@ document.getElementById('começar').addEventListener('click', function () {
             if (contagem <= 0) {
                 clearInterval(intervalo);
                 estaContando = false;
-                document.getElementById('timer').innerHTML = "Terminada";
+                document.getElementById('timer').innerHTML = "Fim da contagem";
             }
         }, 1000)
     }
